@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    height: 100vh;
+    grid-gap: 1%;
+    grid-template-areas: "header header header"
+                         "hero main main" 
+                         "hero main main"
+                         "hero main main"
+                         "sidebar main main"
+                         "sidebar main main"
+                         "sidebar extra-content extra-content"
+                         "sidebar extra-content extra-content"
+                         "related-images related-images related-posts"
+                         "related-images related-images related-posts"
+                         "footer footer footer"
+} 
+.header{
+    grid-area: header;
+    background-color: lightgray;
+}
+.hero{
+    grid-area: hero;
+    background-color: gray;
+}
+.main{
+    grid-area: main;
+    background-color: green;
+}
+.sidebar{
+    grid-area: sidebar;
+    background-color: lightgreen;
+}
+.extra-content{
+    grid-area: extra-content;
+    background-color: brown;
+}
+.related-images{
+    grid-area: related-images;
+    background-color: lightyellow;
+}
+.related-posts{
+    grid-area: related-posts;
+    background-color: lightblue;
+}
+.footer{
+    grid-area: footer;
+    background-color: purple;
+}

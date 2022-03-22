@@ -48,5 +48,5 @@
 }
 .footer{
     grid-area: footer;
-    background-color: purple;
+    background-color: rgb(192, 93, 192);
 }

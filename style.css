@@ -1,11 +1,11 @@
 *{
-    margin: 0px;
+    margin: 0;
     box-sizing: border-box;
 }
 .container{
     display: grid;
     height: 100vh;
-    grid-gap: 1%;
+    grid-gap: 0.5%;
     grid-template-areas: "header header header"
                          "hero main main" 
                          "hero main main"
@@ -30,7 +30,7 @@
     grid-area: main;
     background-color: green;
 }
-.sidebar{
+.sidebaras{
     grid-area: sidebar;
     background-color: lightgreen;
 }
@@ -50,3 +50,8 @@
     grid-area: footer;
     background-color: rgb(192, 93, 192);
 }
+.center{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
